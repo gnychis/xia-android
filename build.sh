@@ -2,7 +2,7 @@
 
 # Copy all of the files over
 cp -fr ../xia-core/api/xsocket/*.c jni/XIASocket/
-cp -fr ../xia-core/api/dagaddr/cpp/* jni/dagaddr/
+#cp -fr ../xia-core/api/dagaddr/cpp/* jni/dagaddr/
 
 # Rename all of the .c files to .cc
 for file in jni/XIASocket/*.c; do

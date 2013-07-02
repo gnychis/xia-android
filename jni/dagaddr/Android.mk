@@ -4,8 +4,8 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libdagaddr
 
 LOCAL_SRC_FILES :=  \
-dagaddr.cpp \
-utils.cpp
+../../../xia-core/api/dagaddr/cpp/dagaddr.cpp \
+../../../xia-core/api/dagaddr/cpp/utils.cpp
 
 LOCAL_CPP_EXTENSION := .cpp
 
