@@ -9,13 +9,12 @@ utils.cc
 
 LOCAL_CPP_EXTENSION := .cc
 
-LOCAL_C_INCLUDES += jni/../../xia-core/api/include jni/../../xia-core/api/xsocket/ jni/protobuf jni/../../xia-core/api/xsocket/minini
+LOCAL_C_INCLUDES += jni/../../xia-core/api/include
 
-LOCAL_SHARED_LIBRARIES := \
-libdagaddr libprotobuf libz libcutils libutils libpthread
+LOCAL_SHARED_LIBRARIES := 
 LOCAL_LDLIBS := -lz -lm
 
-LOCAL_CPPFLAGS := -D__MTCLICK__ -DCLICK_USERLEVEL -DHAVE_USER_MULTITHREAD -Wno-psabi -L$(LOCAL_PATH)/src/google/protobuf/io_engine/lib -frtti 
-LOCAL_CFLAGS := -Wno-psabi -L$(LOCAL_PATH)/src/google/protobuf/io_engine/lib -frtti 
+LOCAL_CPPFLAGS := 
+LOCAL_CFLAGS :=  
 
 include $(BUILD_SHARED_LIBRARY)
