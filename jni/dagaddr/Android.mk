@@ -4,10 +4,10 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libdagaddr
 
 LOCAL_SRC_FILES :=  \
-dagaddr.cc \
-utils.cc
+dagaddr.cpp \
+utils.cpp
 
-LOCAL_CPP_EXTENSION := .cc
+LOCAL_CPP_EXTENSION := .cpp
 
 LOCAL_C_INCLUDES += jni/../../xia-core/api/include
 

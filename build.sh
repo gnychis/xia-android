@@ -11,10 +11,10 @@ for file in jni/XIASocket/*.c; do
 done
 
 # Rename all of the .cpp files to .cc
-for file in jni/dagaddr/*.cpp; do
-  bn=$(basename $file .cpp)
-  mv $file jni/dagaddr/$bn.cc
-done
+#for file in jni/dagaddr/*.cpp; do
+#  bn=$(basename $file .cpp)
+#  mv $file jni/dagaddr/$bn.cc
+#done
 
 # Your standard android NDK build
 ndk-build
